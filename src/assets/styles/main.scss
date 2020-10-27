@@ -1,0 +1,45 @@
+.container{
+    position: relative;
+
+    @media (min-width: 576px){
+        max-width: 100%;
+    }
+
+    @media (min-width: 992px){
+        max-width: 100%;
+    }
+
+    @media (min-width: 1200px) {
+        max-width: 1270px;
+    }
+}
+
+.ico-drop-2{
+    font-family: 'Cruce Wabro';
+    font-style: normal;
+    line-height: 1;
+
+    &::before{
+        content: "\E809";
+    }
+}
+
+.ico-filtro{
+    font-family: 'Cruce Wabro';
+    font-style: normal;
+    line-height: 1;
+
+    &::before{
+        content: "\E80C";
+    }
+}
+
+.ico-flecha-1{
+    font-family: 'Cruce Wabro';
+    font-style: normal;
+    line-height: 1;
+    
+    &::before{
+        content: '\E804';
+    }
+}

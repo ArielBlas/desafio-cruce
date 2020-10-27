@@ -1,0 +1,448 @@
+@import 'src/assets/styles/_fonts.scss';
+
+.product-card{
+    display: flex;
+    flex-direction: column;
+    padding: 6px 15px 30px;
+    margin-bottom: 48px;
+
+    .img-container{
+        position: relative;
+        //height: 438px;
+        margin-right: 12px;
+
+        .img-card{
+            width: 100%;
+            height: 100%;
+        }
+
+        .img-promo{
+            position: absolute;
+            bottom: 0;
+
+            img{
+                position: relative;
+                left: -3px;
+                bottom: -6px;
+            }
+
+            p{
+                position: absolute;
+                z-index: 1;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                top: 23px;
+                left: 7px;
+                width: 85%;
+                margin: 0px;
+                font-size: 16px;
+                letter-spacing: 0.05em;
+                transform: rotate(-15deg);
+                color: #FFFFFF;
+                font-family: 'Neue Machina';
+                font-weight: 800;
+
+                span{
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+
+    .content-card{
+
+        .body-card{
+            padding: 12px 0px;
+            
+            .marca-card{
+                font-family: 'Neue Machina';
+                font-weight: 800;
+                margin: 0px;
+                font-size: 16px;
+                line-height: 18px;
+                color: #7D5A94;
+            }
+
+            .title-card{
+                font-family: 'Inter';
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 18px;
+                margin: 0px;                
+            }
+        }
+
+        .price-card{
+            
+
+            .cuotas-card{
+                display: flex;
+                flex-direction: column;
+                margin-bottom: 6px;
+
+                .cuotas-num{
+                    font-family: 'Inter';
+                    font-weight: 400;
+                    font-size: 15px;
+                    line-height: 18px;
+                    color: #505050;
+                }
+    
+                .cuotas-value{
+                    font-family: 'Inter';
+                    font-weight: 700;
+                    font-size: 22px;
+                    line-height: 24px;
+                }
+            }
+
+            .final-price{
+                display: flex;
+                align-items: center;
+                margin-bottom: 12px;
+
+                span:first-child{
+                    font-family: 'Inter';
+                    font-weight: 400;
+                    font-size: 15px;
+                    line-height: 18px;
+                    margin-right: 6px;
+                }
+
+                h5{
+                    font-family: 'Inter';
+                    font-weight: 700;
+                    font-size: 22px;
+                    line-height: 24px;
+                    margin: 0;
+                    color: #EC2227;
+                }
+
+                .best-price{
+                    font-family: 'Inter';
+                    font-weight: 400;
+                    font-size: 15px;
+                    line-height: 18px;
+                    color: #8C8C8C;
+                    text-decoration-line: line-through;
+                }
+
+                .price{
+                    font-family: 'Inter';
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 18px;
+                }
+
+                .discount-price{
+                    font-family: 'Inter';
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 18px;
+                    margin-left: 6px;
+                    color: #EC2227;
+                    font-feature-settings: 'ordn' on, 'liga' off;
+                }
+            } 
+
+            .view-card{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 151px;
+                height: 48px;
+                border: 2px solid #000000;
+                box-shadow: 3px 3px 0px #000000;
+                border-radius: 6px;
+                font-family: 'Neue Machina';
+                font-weight: 800;
+                font-size: 16px;
+                line-height: 18px;
+                letter-spacing: 0.05em;
+                font-feature-settings: 'ss01' on, 'case' on;
+                color: #000;
+                transition: all .3s linear;
+
+                &:hover{
+                    text-decoration: none;
+                    background: #F26522;
+                    color: #fff;
+                    box-shadow: none;
+                    border: none;
+                }
+
+                &:active{
+                    box-shadow: inset 0px 2px 6px #FFFFFF, inset 0px -2px 6px rgba(0, 0, 0, 0.5);
+                }
+            }
+
+            .cart-card{
+                display: flex;
+                overflow: hidden;
+                font-family: 'Cruce Wabro';
+                border: 2px solid #76B043;
+                width: 60px;
+                height: 48px;
+                border-radius: 6px;
+                align-items: center;
+                justify-content: center;
+                font-size: 0;
+                color: #76B043;
+                transition: all .3s linear;
+                line-height: 1;
+
+                &::before{
+                    content: "\E800";
+                    font-size: 32px;
+                }
+
+                &:hover{
+                    text-decoration: none;
+                    width: 147px;
+                    color: #fff;
+                    background-color: #76B043;
+
+                    &::before{
+                        margin-right: 12px;
+                    }
+
+                    &::after{
+                        content: "Agregar";
+                        font-family: 'Neue Machina';
+                        font-weight: 800;
+                        font-size: 16px;
+                        line-height: 18px;
+                        letter-spacing: 0.05em;
+                        font-feature-settings: 'ss01' on, 'case' on;
+                    }
+                }
+
+                &:active{
+                    box-shadow: inset 0px 2px 6px #FFFFFF, inset 0px -2px 6px rgba(0, 0, 0, 0.5);
+                }
+            }
+        }
+    }
+}
+
+.pagination{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 36px 0 60px;
+
+    .pages{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+
+        .previous-arrow, .next-arrow{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Cruce Wabro';
+            width: 36px;
+            height: 36px;
+            border: 1px solid #F0F0F0;
+            border-radius: 24px;
+            line-height: 1;
+            font-size: 27px;
+            color: #000;
+            background-color: #fff;
+            cursor: pointer;
+
+            &:hover{
+                box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.15);
+            }
+        }
+
+        .previous-arrow{
+            margin-right: 9px;
+            &::before{    
+                content: '\E806';
+            }
+        }
+
+        .next-arrow{
+            margin-left: 9px;
+            &::before{    
+                content: '\E807';
+            }
+        }
+
+        .page-number{
+            width: 36px;
+            height: 36px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Neue Machina';
+            font-weight: 800;
+            font-size: 16px;
+            line-height: 18px;
+            letter-spacing: 0.05em;
+            font-feature-settings: 'ss01' on, 'case' on;
+            color: #8C8C8C;
+            margin: 0 3px;
+            cursor: pointer;
+
+            &:hover{
+                color: #000;
+            }
+
+            &:active{
+                color: #F26522;
+            }
+        }
+
+        .select{
+            border: 2px solid #F26522;
+            border-radius: 12px;
+            color: #000;
+        }
+    }
+}
+
+.volver{
+    position: sticky;
+    left: 80%;
+    bottom: 0;
+    color: #000;
+    width: 120px;
+    height: 60px;
+    background-color: #FDB913;
+    border-radius: 120px 120px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+    .ico-flecha-1{
+        font-size: 36px;
+    }
+
+    span{
+        font-family: 'Neue Machina';
+        font-weight: 800;
+        font-size: 10px;
+        line-height: 12px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        font-feature-settings: 'ss01' on, 'case' on;
+    }
+
+    &:hover{
+        background-color: #000;
+        color: #FDB913;
+    }
+
+    &:active{
+        background-color: #FDB913;
+        color: #000;
+        box-shadow: inset 0px 2px 6px #FFFFFF, inset 0px -2px 6px rgba(0, 0, 0, 0.5)
+    }
+}
+
+@media (max-width: 768px-1){
+    .product-card{
+        flex-direction: row;
+        padding: 12px 0px;
+        margin: 0px -3px;
+        border-bottom: 1px solid #F0F0F0;
+
+        .img-container{
+            width: 40%;
+            //height: 164px;
+
+            .img-promo{
+                p{
+                    top: 18px;
+                    left: 10px;
+                }
+                img{
+                    left: 0px;
+                    bottom: 0px;
+                }
+            }
+        }
+
+        .content-card{
+            width: 60%;
+
+            .body-card{
+                .title-card{
+                    font-size: 13px;
+                    line-height: 15px;
+                    font-feature-settings: 'ss01' on, 'case' on;
+                }
+            }
+
+            .price-card{
+                .cuotas-card{
+                    .cuotas-num{
+                        font-size: 13px;
+                        line-height: 15px;
+                        font-feature-settings: 'ss01' on, 'case' on;
+                    }
+
+                    .cuotas-value{
+                        font-size: 16px;
+                        line-height: 18px;
+                        font-feature-settings: 'ordn' on, 'liga' off;
+                    }
+                }
+
+
+                .final-price{
+                    span:first-child{
+                        font-size: 13px;
+                        line-height: 15px;
+                        margin-right: 3px;
+                        font-feature-settings: 'ss01' on, 'case' on;
+                    }
+
+                    .price, .best-price{
+                        font-size: 13px;
+                        line-height: 15px;
+                        font-feature-settings: 'ss01' on, 'case' on;
+                    }
+
+                    .discount-price{
+                        font-size: 13px;
+                        line-height: 15px;
+                        margin-left: 3px;
+                        letter-spacing: 0.01em;
+                        font-feature-settings: 'ss01' on, 'case' on;
+                    }
+
+                    h5{
+                        font-size: 16px;
+                        line-height: 18px;
+                        font-feature-settings: 'ordn' on, 'liga' off;
+                    }
+                    
+                }
+                
+                a{
+                    display: none !important;
+                    visibility: hidden;
+                }
+            }
+        }
+    }
+
+    .pagination{
+        padding: 48px 0 42px;
+        margin: 0px -5px;
+    }
+
+    .volver{
+        left: 0%;
+        margin: 0 auto;
+    }
+}

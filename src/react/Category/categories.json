@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1,
+        "name":"Juguetes",
+        "subcategory": [
+            {
+                "id": 1,
+                "name": "Funko Pop"
+            },{
+                "id": 2,
+                "name": "Vehiculos"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name":"Mochilas",
+        "subcategory": [
+            {
+                "id": 3,
+                "name": "Infantiles"
+            },{
+                "id": 4,
+                "name": "Jansport"
+            }
+        ]
+    }
+]

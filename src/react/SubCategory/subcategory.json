@@ -1,0 +1,35 @@
+[
+    {
+        "id":1,
+        "name": "Funko Pop",
+        "image": "https://res.cloudinary.com/dcgj4bpf2/image/upload/v1603642271/banner_listado_orrxz4.png",
+        "categories": {
+            "id": 1,
+            "name": "Juguetes"
+        }
+    },
+    {
+        "id":2,
+        "name": "Vehiculos",
+        "categories": {
+            "id": 1,
+            "name": "Juguetes"
+        }
+    },
+    {
+        "id":3,
+        "name": "Infantiles",
+        "categories": {
+            "id": 2,
+            "name":"Mochilas"
+        }
+    },
+    {
+        "id":4,
+        "name": "Jansport",
+        "categories": {
+            "id": 2,
+            "name": "Mochilas"
+        }
+    }
+]

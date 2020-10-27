@@ -1,0 +1,98 @@
+[
+	{
+		"id": 1,
+		"marca": "Funko",
+		"category": "Jugetes",
+		"sub_category": "Funko Pop",
+		"image": "https://res.cloudinary.com/dcgj4bpf2/image/upload/v1603643391/4048_l5vllj.png",
+		"name": "Funko POP | Game Of Thrones - Daenerys 25",
+		"price": 2390.00,
+        "discount": 10,
+		"stock": 50,
+		"cuotas": 6
+	},
+	{
+		"id": 2,
+		"marca": "Funko",
+		"category": "Jugetes",
+		"sub_category": "Funko Pop",
+		"image": "https://res.cloudinary.com/dcgj4bpf2/image/upload/v1603643565/29164_t4xdsb.png",
+		"name": "Funko POP | Game Of Thrones - Daenerys 25",
+        "price": 2390.00,
+        "discount": 0,
+		"stock": 50,
+		"cuotas": 6
+	},
+	{
+		"id": 3,
+		"marca": "Funko",
+		"category": "Jugetes",
+		"sub_category": "Funko Pop",
+		"image": "https://res.cloudinary.com/dcgj4bpf2/image/upload/v1603643631/12217-PX-1Q1_lmbrxi.png",
+		"name": "Funko POP | Game Of Thrones - Daenerys 25",
+        "price": 2390.00,
+        "discount": 0,
+		"stock": 0,
+		"cuotas": 6
+	},
+	{
+		"id": 4,
+		"marca": "Funko",
+		"category": "Jugetes",
+		"sub_category": "Funko Pop",
+		"image": "https://res.cloudinary.com/dcgj4bpf2/image/upload/v1603643662/12216-PX-1Q1_exdkl2.png",
+		"name": "Funko POP | Game Of Thrones - Daenerys 25",
+        "price": 2390.00,
+        "discount": 10,
+		"stock": 50,
+		"cuotas": 6
+	},
+	{
+		"id": 5,
+		"marca": "Funko",
+		"category": "Jugetes",
+		"sub_category": "Funko Pop",
+		"image": "https://res.cloudinary.com/dcgj4bpf2/image/upload/v1603643732/12215-PX-1Q1_aqp2cl.png",
+		"name": "Funko POP | Game Of Thrones - Daenerys 25",
+        "price": 2390.00,
+        "discount": 0,
+		"stock": 50,
+		"cuotas": 6
+	},
+	{
+		"id": 6,
+		"marca": "Funko",
+		"category": "Jugetes",
+		"sub_category": "Funko Pop",
+		"image": "https://res.cloudinary.com/dcgj4bpf2/image/upload/v1603643758/5068_shjsjc.png",
+		"name": "Funko POP | Game Of Thrones - Daenerys 25",
+        "price": 2390.00,
+        "discount": 0,
+		"stock": 50,
+		"cuotas": 6
+	},
+	{
+		"id": 7,
+		"marca": "Funko",
+		"category": "Jugetes",
+		"sub_category": "Funko Pop",
+		"image": "https://res.cloudinary.com/dcgj4bpf2/image/upload/v1603643895/4017_p9qj7e.png",
+		"name": "Funko POP | Game Of Thrones - Daenerys 25",
+        "price": 2390.00,
+        "discount": 0,
+		"stock": 50,
+		"cuotas": 6
+	},
+	{
+		"id": 8,
+		"marca": "Funko",
+		"category": "Jugetes",
+		"sub_category": "Funko Pop",
+		"image": "https://res.cloudinary.com/dcgj4bpf2/image/upload/v1603643899/3876_rv4ry3.png",
+		"name": "Funko POP | Game Of Thrones - Daenerys 25",
+        "price": 2390.00,
+        "discount": 0,
+		"stock": 50,
+		"cuotas": 6
+	}
+]
